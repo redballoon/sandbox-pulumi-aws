@@ -1,5 +1,7 @@
-# Sandbox-Pulumi-Aws
+# Sandbox-Pulumi-Aws (WIP)
 Sandbox to play around with Infra as Code (IaC) and document permissions/resources required to generate something similar to Serverless framework but using Pulumi framework.
+
+## WORK IN PROGRESS
 
 ## WHY ?
 Pulumi promises more granular control but with that your responsibility increases by a lot.
@@ -36,13 +38,13 @@ we should be able to run the same example with Serverless and Pulumi with
 similar results
 
 ```
-cd ./Lambda
+cd ./recipes/LambdaHttp
 
 # shortcuts for Serverless
 npm run sls:deploy:lambda
 
 
-# shortcut for Pulumi
+# shortcut for Pulumi (WIP)
 // npm run sls:deploy:lambda:pm
 ```
 
