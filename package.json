@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "sls": "serverless",
+    "sls:deploy:lambda": "serverless deploy --verbose --region us-west-2 --config ./Lambda/serverless.yml",
+    "sls:logs:lambda": "serverless logs --region us-west-2 --config ./Lambda/serverless.yml -f hello -t",
+    "sls:remove:lambda": "serverless remove --verbose --config ./Lambda/serverless.yml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "redballoon",
-  "license": "MIT",
   "devDependencies": {
     "serverless": "^2.59.0"
   }
